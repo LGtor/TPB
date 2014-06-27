@@ -47,6 +47,13 @@ var app = {
 	}
 };
 
-window.onload = console.log(app.getQuote());
+  $("#btn").click(function() {
+
+
+  		$("#quote").text(app.getQuote);
+  });
+
+
+// window.onload = console.log(app.getQuote());
 
 		
